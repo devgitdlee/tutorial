@@ -1,0 +1,15 @@
+## 다음과 같은 확장자는 전체 무시
+*.text
+*.exe
+*.zip
+
+## 폴더 무시
+admin/.dbdata
+
+[user]
+    name = 
+    email = you@example.com
+
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
